@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mindset</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+  {
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p,h1,h2{
+    font-family:'kingthings_linear_kregular';
+    color:#00ffff;
+}
+	{
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+
+	 background-color:#0080ff;
+}
+
+
+#navbar {
+  overflow: hidden;
+  background-color:Blue;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color:#00ffff;
+  color:white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+</style>
+</head>
+<body>
+
+<div class="container text-center" style="margin-bottom:0;color:Black;background-color:#0080ff;">
+  <img src='Logo.jpg' alt='Logo.jpg' width='260' height='306'>
+  <h1>Develop a Mindset that will allow you to realise your full potential</h1><br>
+</div>
+
+<div id="navbar">
+  <a href="HOMEPAGE.html">Home</a>
+  <a href="Dzongkha.html">Dzongkha</a>
+  <a href="English.html">English</a>
+  <a href="Maths.html">Maths</a>
+  <a class="active" href="Mindset.html">Mindset</a>
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+<br>
+<div class='row py-3 px-5'>
+  <div class='column mx-auto d-block'>
+    <h2 style='text-align:center'>Death as a motivator.</h2>
+    <img class='mx-auto d-block'src='Skull.jpg' width="320" height="250"><br>
+    <p style='font-size:20px'>
+      Death is inevitable and every living being must die at one point in time, this includes us humans as well. We do not know when death may srike us but death can be used as a motivator to drive us to do whatever it is that we want to do. Imagine this scenario-if you die today, are you happy with the impact you have made and the legacy that you are going to leave behind for others. You will most likely not be satisfied with the legacy that you will leave behind; therefore, you must realise that you need to work towards what you want to accomplish. Being aware that you might die at any time and place will make sure that you are driven to complete what you want to. If you look at death from this perspective you will have a great drive to become the best that you can be. 
+    </p>
+    </div>
+</div>
+
+<img class='mx-auto d-block'src='Sad boy.jpg' width="250" height="300"><br>
+
+<div class="jumbotron text-center" style="margin-top:50px;margin-bottom:0px;color:white;background-color:#0000ff">
+  <p>contact me at <a href="nendra.nwangchuk2016@academy.bt" style="color:#00ffff">nendra.nwangchuk2016@academy.bt</a></p>
+</div>
+
+</body>
+</html>

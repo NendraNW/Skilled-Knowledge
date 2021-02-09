@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Sheyting</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+	{
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p,h1,h2{
+    font-family:'kingthings_linear_kregular';
+    color:#00ffff;
+}
+	{
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+  font-size:30px;
+  text-align:center;
+}
+
+h1{
+  text-align:center;
+}
+
+body {
+
+	 background-color:#0080ff;
+}
+
+hr{
+  color:white;
+  height:5px;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color:Blue;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color:#00ffff;
+  color:white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+</style>
+</head>
+<body>
+
+<div class="container text-center" style="margin-bottom:0;color:white;background-color:#0080ff;">
+  <img src='Logo.jpg' alt='Logo.jpg' width='260' height='306'>
+  <h1>Sheyting</h1><br>
+</div>
+
+<div id="navbar">
+  <a href="HOMEPAGE.html">Home</a>
+  <a class="active" href="Dzongkha.html">Dzongkha</a>
+  <a href="English.html">English</a>
+  <a href="Maths.html">Maths</a>
+  <a href="Mindset.html">Mindset</a>
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+
+<div>
+  <br>
+  <h1>མཚན་དོན།</h1><br>
+  <p>རྒྱ་གར་སྐད་དུ། སུ་ཧྲི་ད་ལེ་ཁ། བོད་སྐད་དུ། བཤེས་པའི་སྤྲིང་ཡིག།</p><br><hr><br>
+  <h1>འགྱུར་ཕྱག་འཚལ་བ།</h1><br><!-- Prayer -->
+  <p>འཇམ་དཔལ་གཞོན་ནུར་གྱུར་པ་ལ་ཕྱག་འཚལ་ལོ།།</p><br><hr>
+  <h1>ཉན་པར་བསྐུལ་བ།</h1><br><!--Paragraph 1-->
+  <p>ཡོན་ཏན་རང་བཞིན་དགེ་འོས་བདག་གིས་ནི།།<br>བདེ་བར་གཤེགས་པའི་གསུང་བསྙད་ལས་བྱུང་བའི།།<br>བསོད་ནམས་འདུན་སླད་འཕགས་པའི་དབྱངས་འདི་དག།<br>ཅུང་ཟད་ཅིག་བསྡེབས་ཁྱོད་ཀྱིས་གསན་པར་རིགས།།</p><hr>
+  <h1>དཔྱེའི་སྒོ་ལས་ཉན་པར་བསྐུལ་བ།</h1> <!--Paragraph 2-->
+  <br><p>ཇི་ལྟར་བདེ་གཤེཊ་སྐུ་གཟུགས་ཤིང་ལས་ཀྱང་།།<br>བགྱིས་པ་ཅི་འདྲའང་རུང་སྟེ་མཁས་པས་མཆོད།།<br>དེ་བཞིན་བདག་གི་སྙན་ངག་འདི་ངན་ཡང་།།<br>དམ་ཆོས་བརྗོད་ལ་བརྟེན་སླད་སྨད་མི་བགྱི།།</p><hr>
+  <h1>དོན་གྱི་སྒོ་ལས་ཉན་པར་བསྐུལ་བ།</h1> <!--Paragraph 3-->
+  <br><p>ཐུབ་ཆེན་པོའི་བཀའ་ནི་སྙན་དགུ་ཞིག།<br>ཁྱོད་ཀྱི་ཐུགས་སུ་ལྟ་ཡང་ཆུད་མོད་ཀྱི།།<br>རྡོ་ཐལ་ལས་བགྱིས་དགུང་ཟླའི་འོད་ཀྱིས་ནི།།<br>ཆེས་དཀར་ཉིད་དུ་ཅི་སྟེ་མི་བགྱིད་ལགས།།</p><hr>
+  <h1>  ཐར་པ་འཐོབ་པའི་རྒྱུ་ རྗེས་དྲན་ཉམས་སུ་ལེན་ཐངས།</h1> <!--Paragraph 4-->
+  <br><p>རྒྱལ་བས་སངས་རྒྱས་ཆོས་དང་དགེ་འདུན་དང་།།<br>གཏོང་དང་ཚུལ་ཁྲིམས་ལྷ་རྗེས་དྲན་པ་དྲུག།<br>རབ་ཏུ་བཀའ་སྩལ་དེ་དག་སོ་སོ་ཡི།།<br>ཡོན་ཏན་ཚོགསཀྱི་རྗེས་སུ་དྲན་པར་བགྱི།།</p><hr>
+  <h1> རྗེས་དྲན་དྲུག་ལས་ ལྷ་རྗེས་དྲན་བཤད་པ།</h1> <!--Paragraph 5-->
+  <br><p>དགེ་བའི་ལས་ལམ་བཅུ་པོ་ལུས་དང་ནི།།<br>ངག་དང་ཡིད་ཀྱིས་རྟག་ཏུ་བསྟེན་བགྱི་ཞིང་།།<br>ཆང་རྣམས་ལས་ལྡོག་དེ་བཞིན་དགེ་བ་ཡི།།<br>འཚོ་བ་ལ་ཡང་མངོན་པར་དགྱེས་པར་མཛོད།།</p><hr> 
+  <h1>གཏོང་བ་རྗེས་སུ་དྲན་པ།</h1> <!--Paragraph 6-->
+  <br><p>ལོངས་སྤྱོད་གཡོ་བ་སྙིང་པོ་མེད་མཁྱེན་ནས།།<br>དགེ་སློང་བྲམ་ཟེ་བཀྲེན་དང་བཤེས་རྣམས་ལ།།<br>སྤྱིན་པ་ཚུལ་བཞིན་བསྩལ་བགྱི་ཕ་རོལ་ཏུ།།<br>སྦྱིན་ལས་གཞན་པའི་གཉེན་མཆོག་མ་མཆིས་སོ།།</p><hr> 
+  <h1>ཚུལ་ཁྲིམས་སྲུང་ཚུལ།</h1> <!--Paragraph 7-->
+  <br><p>ཁྱོད་ཀྱིས་ཚུལ་ཁྲིམས་མ་ཉམས་མོད་མི་དམའ།།<br>མ་འདྲེས་མ་སྦགས་པ་དག་བསྟེན་པར་མཛོད།།<br>ཁྲིམས་ནི་རྒྱུ་དང་མི་རྒྱུའི་ས་བཞིན་དུ།།<br>ཡོན་ཏན་ཀུན་གྱི་གཞི་རྟེན་ལགས་པར་གསུངས།།</p><hr>
+  <h1>ཐར་པའི་ལམ་གྱི་རྩ་བ་ཕར་ཕྱིན་དྲུག་ངོ་སྤྲོད།</h1> <!--Paragraph 8-->
+  <br><p>སྦྱིན་དང་ཚུལ་ཁྲིམས་བཟོད་བརྩོན་བསམ་གཏན་དང་།།<br>དེ་བཞིན་ཤེས་རབ་གཞལ་མེད་ཕ་རོལ་ཕྱིན།།<br>འདི་དག་རྒྱས་མཛད་སྲིད་པའི་རྒྱ་མཚོ་ཡི།།<br>ཕ་རོལ་ཕྱིན་པ་རྒྱལ་བའི་དབང་པོ་མཛོད།།</p><hr>
+  <h1>སྦྱིན་པ་གཏང་སའི་ཡུལ་ངོས་བཟུང་།</h1> <!--Paragraph 9-->
+  <br><p>གང་ལ་ཕ་དང་མ་དག་མཆོད་པ་ཡི།།<br>རིགས་དེ་ཚངས་བཅས་སློབ་དཔོན་བཅས་པའང་ལགས།།<br>དེ་དག་ལ་མཆོད་གྲགས་པར་གྱུར་པ་དང་།།<br>སླད་མ་ལ་ཡང་མཐོ་རིས་གྱུར་པ་ལགས།།</p><hr>
+  <h1>ཚུལ་ཁྲིམས་ཡན་ལག་བརྒྱད་སྲུང་ཐངས།</h1> <!--Paragraph 10-->
+  <br><p>འཚེ་དང་ཆོམ་ཀུན་འཁྲིག་པ་བརྫུན་དང་ནི།།<br>ཆང་དང་དུས་མིན་ཟས་ལ་ཆགས་པ་དང་།།<br>མལ་སྟན་མཐོ་ལ་དགའ་དང་གླུ་དག་དང་།།<br>གར་དང་འཕྲེང་བའི་ཁྱད་པར་རྣམས་སྤོང་ཞིང་།།</p><hr> 
+  
+</div>
+
+
+
+ 
+ 
+
+
+<div class="jumbotron text-center" style="margin-top:50px;margin-bottom:0px;color:white;background-color:#0000ff">
+  <p style="font-size:18px">contact me at <a href="nendra.nwangchuk2016@academy.bt" style="color:#00ffff">nendra.nwangchuk2016@academy.bt</a></p>
+</div>
+
+</body>
+</html>

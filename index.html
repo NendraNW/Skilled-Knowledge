@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Skilled Knowledge</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<style>
+		{
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p,h1,h2{
+    font-family:'kingthings_linear_kregular';
+    color:#00ffff;
+}
+	{
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+
+	 background-color:#0080ff;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color:Blue;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #00ffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color:#00ffff;
+  color:Blue;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+</style>
+</head>
+
+
+<body>
+
+<div class="container text-center" style="margin-bottom:0;color:#00ffff;background-color:#0080ff;">
+  <img src='Logo.jpg' alt='Logo.jpg' width='260' height='306'>
+  <h1>"Be skilled for Life"</h1>
+  <br>
+</div>
+
+<div id="navbar">
+    <a class="active" href="HOMEPAGE.html">Home</a>
+    <a href="Dzongkha.html">Dzongkha</a>
+    <a href="English.html">English</a>
+    <a href="Maths.html">Maths</a>   
+    <a href="Mindset.html">Mindset</a>
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+  
+<div class='row py-3 px-5'>
+	<div class='column'>
+		<h2>What we do</h2>
+		<p style='font-size:20px'>Skilled Knowledge will provide you and your<br> 
+		loved ones with the Skills and Knowledge to<br>
+		navigate through the current modern world. We <br>
+	    are creating a platform for learners to learn <br
+	    >skills and knowledge to enrich their lives.</p>
+    </div>
+    <div class='column'>
+    	<img src='Nav.png' width=250px height=250px>
+    </div>
+    <div class='column'>
+    	<h2>Why we do</h2>
+    	<p style='font-size:20px;'>In this modern world, knowledge is becoming<br> 
+    		obsolete at a rapid rate. That is why we are <br>
+    	    providing skills and relevant knowledge to make<br>
+    	sure that the arsenal that you acquire is useful.</p>
+    </div>
+    <div class='column'>
+    	<img class='float-left'src='Skills.png' width=230px height=230px>
+    </div>
+</div>
+
+<div class='row py-3 px-5'>
+	<div class='column'>
+		<img src='Comp.png' height='400px' width="400px">
+	</div>
+	<div class='column ml-5'>
+    	<h2>How we do it</h2>
+    	<p style='font-size:20px'>
+    		We are providing this online platform for <br>
+    		people to utilize, to maximise their potential.<br> 
+    		Equipping them with all the necessary skills <br>
+    		and knowledge while also covering all of the <br> 
+    		domain content knowledge that they require. <br>
+    		Educating the people while including schooling <br>
+    		as well. Making sure that everyone becomes the <br>
+    		best version of themselves as possible.</p>
+    </div>
+    <div class='column'>
+		<img src='plant.png' height="320" width="448">
+	</div>
+</div>
+<div>
+<img src='Journey.png' class="mx-auto d-block">
+</div>
+<div class="jumbotron text-center" style="margin-top:50px;margin-bottom:0px;color:#00ffff;background-color:#0000ff">
+  <p>contact me at <a href="nendra.nwangchuk2016@academy.bt" style="color:#00ffff">nendra.nwangchuk2016@academy.bt</a></p>
+</div>
+
+
+</body>
+</html>

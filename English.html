@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>English</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+	{
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p,h1,h2{
+    font-family:'kingthings_linear_kregular';
+    color:#00ffff;
+}
+	{
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+
+	 background-color:#0080ff;
+}
+#navbar {
+  overflow: hidden;
+  background-color:Blue;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color:#00ffff;
+  color:white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+</style>
+</head>
+<body>
+
+<div class="container text-center" style="margin-bottom:0;color:Black;background-color:#0080ff;">
+  <img src='Logo.jpg' alt='Logo.jpg' width='260' height='306'>
+  <h1>Learn through the International Language to excel at communication</h1><br>
+</div>
+
+<div id="navbar">
+  <a href="HOMEPAGE.html">Home</a>
+  <a href="Dzongkha.html">Dzongkha</a>
+  <a class="active" href="English.html">English</a>
+  <a href="Maths.html">Maths</a>
+  <a href="Mindset.html">Mindset</a>
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+
+<div class="jumbotron text-center" style="margin-top:50px;margin-bottom:0px;color:white;background-color:#0000ff">
+  <p>contact me at <a href="nendra.nwangchuk2016@academy.bt" style="color:#00ffff">nendra.nwangchuk2016@academy.bt</a></p>
+</div>
+
+</body>
+</html>
